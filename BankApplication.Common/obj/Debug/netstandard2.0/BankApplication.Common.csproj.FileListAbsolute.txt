@@ -1,0 +1,8 @@
+D:\BankApplication\BankApplication.Common\bin\Debug\netstandard2.0\BankApplication.Common.deps.json
+D:\BankApplication\BankApplication.Common\bin\Debug\netstandard2.0\BankApplication.Common.dll
+D:\BankApplication\BankApplication.Common\bin\Debug\netstandard2.0\BankApplication.Common.pdb
+D:\BankApplication\BankApplication.Common\obj\Debug\netstandard2.0\BankApplication.Common.csprojAssemblyReference.cache
+D:\BankApplication\BankApplication.Common\obj\Debug\netstandard2.0\BankApplication.Common.AssemblyInfoInputs.cache
+D:\BankApplication\BankApplication.Common\obj\Debug\netstandard2.0\BankApplication.Common.AssemblyInfo.cs
+D:\BankApplication\BankApplication.Common\obj\Debug\netstandard2.0\BankApplication.Common.dll
+D:\BankApplication\BankApplication.Common\obj\Debug\netstandard2.0\BankApplication.Common.pdb

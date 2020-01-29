@@ -1,0 +1,11 @@
+D:\BankApplication\BankApplication.Infrastructure\bin\Debug\netstandard2.0\BankApplication.Infrastructure.deps.json
+D:\BankApplication\BankApplication.Infrastructure\bin\Debug\netstandard2.0\BankApplication.Infrastructure.dll
+D:\BankApplication\BankApplication.Infrastructure\bin\Debug\netstandard2.0\BankApplication.Infrastructure.pdb
+D:\BankApplication\BankApplication.Infrastructure\obj\Debug\netstandard2.0\BankApplication.Infrastructure.csprojAssemblyReference.cache
+D:\BankApplication\BankApplication.Infrastructure\obj\Debug\netstandard2.0\BankApplication.Infrastructure.AssemblyInfoInputs.cache
+D:\BankApplication\BankApplication.Infrastructure\obj\Debug\netstandard2.0\BankApplication.Infrastructure.AssemblyInfo.cs
+D:\BankApplication\BankApplication.Infrastructure\obj\Debug\netstandard2.0\BankApplication.Infrastructure.dll
+D:\BankApplication\BankApplication.Infrastructure\obj\Debug\netstandard2.0\BankApplication.Infrastructure.pdb
+D:\BankApplication\BankApplication.Infrastructure\bin\Debug\netstandard2.0\BankApplication.Domain.dll
+D:\BankApplication\BankApplication.Infrastructure\bin\Debug\netstandard2.0\BankApplication.Domain.pdb
+D:\BankApplication\BankApplication.Infrastructure\obj\Debug\netstandard2.0\BankApplication.Infrastructure.csproj.CopyComplete

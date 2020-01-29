@@ -1,0 +1,3 @@
+D:\BankApplication\BankApplication.Domain\obj\Debug\netcoreapp2.0\BankApplication.Domain.csprojAssemblyReference.cache
+D:\BankApplication\BankApplication.Domain\obj\Debug\netcoreapp2.0\BankApplication.Domain.AssemblyInfoInputs.cache
+D:\BankApplication\BankApplication.Domain\obj\Debug\netcoreapp2.0\BankApplication.Domain.AssemblyInfo.cs
