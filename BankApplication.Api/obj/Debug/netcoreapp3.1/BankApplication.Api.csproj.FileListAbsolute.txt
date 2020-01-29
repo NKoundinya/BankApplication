@@ -48,3 +48,6 @@ d:\BankApplication\BankApplication.Api\bin\Debug\netcoreapp3.1\Microsoft.Extensi
 d:\BankApplication\BankApplication.Api\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 d:\BankApplication\BankApplication.Api\bin\Debug\netcoreapp3.1\Pomelo.EntityFrameworkCore.MySql.dll
 d:\BankApplication\BankApplication.Api\bin\Debug\netcoreapp3.1\Pomelo.JsonObject.dll
+d:\BankApplication\BankApplication.Api\bin\Debug\netcoreapp3.1\MediatR.dll
+d:\BankApplication\BankApplication.Api\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+d:\BankApplication\BankApplication.Api\bin\Debug\netcoreapp3.1\RT.Comb.dll

@@ -7,14 +7,17 @@ namespace BankApplication.Domain.Aggregates.BankAccountAggregate
     {
         public string EmailId { get; private set; }
         public Int64 PhoneNumber { get; private set; }
+        public BankAccount BankAccount { get; private set; }
         public Contact() { }
         public Contact(
             string emailId,
-            Int64 phoneNumber)
+            Int64 phoneNumber,
+            BankAccount bankAccount)
         {
             Id = GetUniqueIdentifier();
             EmailId = emailId;
             PhoneNumber = phoneNumber;
+            BankAccount = bankAccount;
         }
     }
 }

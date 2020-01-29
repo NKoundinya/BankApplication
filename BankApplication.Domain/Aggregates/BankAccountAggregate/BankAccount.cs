@@ -11,32 +11,36 @@ namespace BankApplication.Domain.Aggregates.BankAccountAggregate
         public string AccountId { get; private set; }
         public User User { get; private set; }
         public DateTime DateOfBirth { get; private set; }
-        public List<Proof> Proofs { get; private set; }
+        private List<Proof> _proofs;
+        public IReadOnlyList<Proof> Proofs => _proofs;
         public Gender Gender { get; private set; }
         private int _genderId;
-        public Contact contact { get; private set; }
+        private List<Contact> _contact;
+        public IReadOnlyCollection<Contact> Contact => _contact;
         private List<Address> _address;
         public IReadOnlyList<Address> Address => _address;
         public Amount TotalBalance { get; private set; }
         public Bank Bank { get; private set; }
-        public string _bankId;
         public BankAccount() { }
         public BankAccount(
-            string id,
+            string accountId,
             User user,
             DateTime dateOfBirth,
             List<Proof> proofs,
             Gender gender,
             List<Address> address,
-            string bankId,
+            Bank bank,
+            List<Contact> contact,
             Amount totalBalance)
         {
-            AccountId = id;
+            AccountId = accountId;
+            User = user;
             DateOfBirth = dateOfBirth;
-            Proofs = proofs;
+            _proofs = proofs;
             _genderId = gender.Id;
             _address = address;
-            _bankId = bankId;
+            Bank = bank;
+            _contact = contact;
             TotalBalance = totalBalance;
         }
     }

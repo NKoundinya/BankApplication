@@ -5,6 +5,7 @@ namespace BankApplication.Domain.Aggregates.BankAccountAggregate
 {
     public class User : Entity
     {
+        private Guid _nameId;
         public Name Name { get; private set; }
         public string Role { get; private set; }
         public User() { }
@@ -14,6 +15,7 @@ namespace BankApplication.Domain.Aggregates.BankAccountAggregate
         {
             Id = GetUniqueIdentifier();
             Name = name;
+            _nameId = Name.Id;
             Role = role;
         }
     }

@@ -1,7 +1,7 @@
 using BankApplication.Domain.Common.SeedWork;
 using BankApplication.Domain.Aggregates.Shared;
 
-namespace BankApplication.Domain.Aggregates.BankAccountAggregate
+namespace BankApplication.Domain.Aggregates.TransactionAggregate
 {
     public class Transactions : Entity
     {

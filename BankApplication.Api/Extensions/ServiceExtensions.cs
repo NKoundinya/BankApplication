@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using BankApplication.Infrastructure.Repository;
+using BankApplication.Infrastructure.Common.Repository;
 
 namespace BankApplication.Api.Extensions
 {

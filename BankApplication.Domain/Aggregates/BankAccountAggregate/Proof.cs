@@ -8,14 +8,17 @@ namespace BankApplication.Domain.Aggregates.BankAccountAggregate
     {
         public ProofType Type { get; private set; }
         public ProofType ProofId { get; private set; }
+        public BankAccount BankAccount { get; private set; }
         public Proof() { }
         public Proof(
             ProofType type,
-            ProofType proofId)
+            ProofType proofId,
+            BankAccount bankAccount)
         {
             Id = GetUniqueIdentifier();
             Type = type;
             ProofId = proofId;
+            BankAccount = bankAccount;
         }
     }
 }
