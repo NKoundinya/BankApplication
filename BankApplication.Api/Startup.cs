@@ -34,7 +34,7 @@ namespace BankApplication.Api
 
             services.Scan(scan => scan
                     .FromAssemblies(BankCommon.Assembly,
-                                    Bank.Assembly,
+                                    BankApp.Assembly,
                                     BankDomain.Assembly,
                                     BankInfrastructure.Assembly)
                 .AddClasses()

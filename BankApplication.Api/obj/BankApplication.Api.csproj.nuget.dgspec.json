@@ -105,14 +105,24 @@
           "C:\\Users\\koundinyan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "d:\\BankApplication\\BankApplication.Common\\BankApplication.Common.csproj": {
+                "projectPath": "d:\\BankApplication\\BankApplication.Common\\BankApplication.Common.csproj"
+              },
+              "d:\\BankApplication\\BankApplication.Domain\\BankApplication.Domain.csproj": {
+                "projectPath": "d:\\BankApplication\\BankApplication.Domain\\BankApplication.Domain.csproj"
+              },
+              "d:\\BankApplication\\BankApplication.Infrastructure\\BankApplication.Infrastructure.csproj": {
+                "projectPath": "d:\\BankApplication\\BankApplication.Infrastructure\\BankApplication.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -122,12 +132,20 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.0": {
           "dependencies": {
-            "NETStandard.Library": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.0.0, )",
               "autoReferenced": true
             }
           },

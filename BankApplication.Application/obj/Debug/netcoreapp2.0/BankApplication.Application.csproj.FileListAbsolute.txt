@@ -1,0 +1,15 @@
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Application.deps.json
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Application.dll
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Application.pdb
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Common.dll
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Domain.dll
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Infrastructure.dll
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Common.pdb
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Domain.pdb
+D:\BankApplication\BankApplication.Application\bin\Debug\netcoreapp2.0\BankApplication.Infrastructure.pdb
+D:\BankApplication\BankApplication.Application\obj\Debug\netcoreapp2.0\BankApplication.Application.csprojAssemblyReference.cache
+D:\BankApplication\BankApplication.Application\obj\Debug\netcoreapp2.0\BankApplication.Application.AssemblyInfoInputs.cache
+D:\BankApplication\BankApplication.Application\obj\Debug\netcoreapp2.0\BankApplication.Application.AssemblyInfo.cs
+D:\BankApplication\BankApplication.Application\obj\Debug\netcoreapp2.0\BankApplication.Application.csproj.CopyComplete
+D:\BankApplication\BankApplication.Application\obj\Debug\netcoreapp2.0\BankApplication.Application.dll
+D:\BankApplication\BankApplication.Application\obj\Debug\netcoreapp2.0\BankApplication.Application.pdb

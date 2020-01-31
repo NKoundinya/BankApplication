@@ -1564,7 +1564,14 @@
       },
       "BankApplication.Application/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "BankApplication.Common": "1.0.0",
+          "BankApplication.Domain": "1.0.0",
+          "BankApplication.Infrastructure": "1.0.0",
+          "MediatR": "8.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0"
+        },
         "compile": {
           "bin/placeholder/BankApplication.Application.dll": {}
         },

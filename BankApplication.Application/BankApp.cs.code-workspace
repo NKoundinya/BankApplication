@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "D:\\BankApplication\\BankApplication.Api"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "D:\\BankApplication\\BankApplication.Common"
+		},
+		{
+			"path": "D:\\BankApplication\\BankApplication.Domain"
+		},
+		{
+			"path": "D:\\BankApplication\\BankApplication.Infrastructure"
+		}
+	],
+	"settings": {}
+}

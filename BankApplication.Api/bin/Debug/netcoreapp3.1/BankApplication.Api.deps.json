@@ -1375,6 +1375,13 @@
         }
       },
       "BankApplication.Application/1.0.0": {
+        "dependencies": {
+          "BankApplication.Common": "1.0.0",
+          "BankApplication.Domain": "1.0.0",
+          "BankApplication.Infrastructure": "1.0.0",
+          "MediatR": "8.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0"
+        },
         "runtime": {
           "BankApplication.Application.dll": {}
         },

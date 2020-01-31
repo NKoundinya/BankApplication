@@ -10,13 +10,13 @@ namespace BankApplication.Infrastructure.Common.Repository
         public BankContext(DbContextOptions options) : base(options) { }
 
         public static string SCHEMA = "bankapplication";
-        DbSet<Bank> Banks { get; set; }
-        DbSet<BankAccount> BankAccounts { get; set; }
-        DbSet<User> Users { get; set; }
-        DbSet<Name> Name { get; set; }
-        DbSet<Address> Address { get; set; }
-        DbSet<Proof> Proofs { get; set; }        
-        DbSet<Transactions> Transactions { get; set; }
+        public DbSet<Bank> Banks { get; set; }
+        public DbSet<BankAccount> BankAccounts { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Name> Name { get; set; }
+        public DbSet<Address> Address { get; set; }
+        public DbSet<Proof> Proofs { get; set; }        
+        public DbSet<Transactions> Transactions { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new AddressEntityConfiguration());

@@ -2,7 +2,7 @@ using BankApplication.Domain.Common.SeedWork;
 
 namespace BankApplication.Domain.Aggregates.BankAccountAggregate
 {
-    public class Bank
+    public class Bank : IAggregateRoot
     {
         public string BankId { get; private set; }
         public string BankName { get; private set; }
